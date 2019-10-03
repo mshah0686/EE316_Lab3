@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct  3 12:27:19 2019
+# Process ID: 4652
+# Current directory: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5116 C:\Users\Malav\Documents\EE316Lab\LabWork\Lab_3\Lab_3.xpr
+# Log file: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/vivado.log
+# Journal file: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:55 ; elapsed = 00:00:20 . Memory (MB): peak = 832.012 ; gain = 0.000
+set_property top segment_display [current_fileset]
+set_property top tb_segment [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu Oct  3 12:33:14 2019] Launched synth_1...
+Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Thu Oct  3 12:35:34 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Oct  3 12:39:10 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Oct  3 12:46:46 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  3 12:48:55 2019...

@@ -1,0 +1,185 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 4016
+License: Customer
+
+Current time: 	Thu Oct 03 12:55:04 PDT 2019
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8.1
+OS Version: 6.3
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2560x1600
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 20 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Malav
+User home directory: C:/Users/Malav
+User working directory: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Malav/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Malav/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Malav/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/vivado.log
+Vivado journal file location: 	C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/vivado.jou
+Engine tmp dir: 	C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/.Xil/Vivado-4016-Malav_Windows
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 524 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Malav\Documents\EE316Lab\LabWork\Lab_3\Lab_3.xpr. Version: Vivado v2019.1 
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 120 MB. Current time: 10/3/19, 12:55:06 PM PDT
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 111 MB (+113918kb) [00:02:22]
+// [Engine Memory]: 584 MB (+460409kb) [00:02:22]
+// [GUI Memory]: 128 MB (+11453kb) [00:02:23]
+// [Engine Memory]: 613 MB (+771kb) [00:02:28]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3162 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1731 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 66 MB. Current time: 10/3/19, 12:55:33 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1300 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1860 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:01:00 ; elapsed = 00:00:23 . Memory (MB): peak = 663.313 ; gain = 97.719 
+// Project name: Lab_3; location: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3; part: xc7a35tcpg236-1
+// [Engine Memory]: 645 MB (+1184kb) [00:02:43]
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 465ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // by (cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2527 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1625 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream ERROR ; NA ; NA ; NA ; NA ; NA ; 2.551769256591797 ; 0 ; 4 ; 0 ; 0.0 ; 0 ; 0 ; Thu Oct 03 14:01:57 PDT 2019 ; 00:04:34 ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xc7a35tcpg236-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 3.9s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; write_bitstream ERROR ; NA ; NA ; NA ; NA ; NA ; 2.551769256591797 ; 0 ; 4 ; 0 ; 0.0 ; 0 ; 0 ; Thu Oct 03 14:01:57 PDT 2019 ; 00:04:34 ; Vivado Implementation Defaults (Vivado Implementation 2019) ; Vivado Implementation Default Reports (Vivado Implementation 2019) ; xc7a35tcpg236-1 ; Default settings for Implementation.", 1, "impl_1", 0, false, false, false, false, false, true); // ay (O, cl) - Double Click
+// by (cl):  Open Implemented Design : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1825 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1078 ms.
+// Tcl Message: open_run impl_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1955 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 730 MB. GUI used memory: 70 MB. Current time: 10/3/19, 12:55:56 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1862 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 989 MB. GUI used memory: 68 MB. Current time: 10/3/19, 12:56:18 PM PDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1754 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2028 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 358ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 2017ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2018 ms.
+// Elapsed time: 39 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (by)
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (by)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 68 MB. Current time: 10/3/19, 12:56:41 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,085 MB. GUI used memory: 68 MB. Current time: 10/3/19, 12:57:01 PM PDT
+// [Engine Memory]: 1,087 MB (+428776kb) [00:04:07]
+// Elapsed time: 34 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (by)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, false, true); // u (O, cl) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,425 MB. GUI used memory: 68 MB. Current time: 10/3/19, 12:57:16 PM PDT
+// [Engine Memory]: 1,508 MB (+384459kb) [00:04:23]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (F, cl)
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_CLOSE
+// TclEventType: DESIGN_NEW_FAILED
+// WARNING: HEventQueue.dispatchEvent() is taking  1212 ms.
+// TclEventType: DESIGN_NEW_FAILED
+// PAPropertyPanels.initPanels (Basys3_Master.xdc) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1110 ms.
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-479] Netlist was created with Vivado 2019.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1576.809 ; gain = 0.000 open_run: Time (s): cpu = 00:02:20 ; elapsed = 00:01:29 . Memory (MB): peak = 1576.809 ; gain = 905.094 
+// Tcl Message: INFO: [Common 17-344] 'open_run' was cancelled 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 2, false); // B (F, cl)
+dismissDialog("Open Implemented Design"); // by (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segment_display (segment_display.v)]", 1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segment_display (segment_display.v)]", 1, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_Master.xdc", 1); // k (j, cl)
+// Elapsed time: 184 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,541 MB. GUI used memory: 71 MB. Current time: 10/3/19, 1:00:46 PM PDT
+// Elapsed time: 296 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "segment_display.v", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("OptionPane.button", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cl):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_segment' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)... INFO: [USF-XSim-101] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 

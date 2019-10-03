@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sim_1/new/tb_myAND.v,1570034918,verilog,,C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sim_1/new/tb_segment.v,,tb_myAND,,,,,,,,
+,,,,,,tb_segment,,,,,,,,
+,,,,C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sim_1/new/tb_myAND.v,,tb_sprinkler,,,,,,,,
+C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sources_1/new/myAND.v,1570034924,verilog,,C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sources_1/new/sprinkler.v,,myAND,,,,,,,,
+C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sources_1/new/segment_display.v,1570133467,verilog,,C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sources_1/new/myAND.v,,segment_display,,,,,,,,
+C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sources_1/new/sprinkler.v,1570005160,verilog,,C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.srcs/sim_1/new/tb_sprinkler.v,,sprinkler,,,,,,,,
