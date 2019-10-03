@@ -24,3 +24,11 @@ Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_
 launch_runs impl_1 -jobs 2
 [Thu Oct  3 15:57:12 2019] Launched impl_1...
 Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Oct  3 16:01:01 2019] Launched impl_1...
+Run output will be captured here: C:/Users/Malav/Documents/EE316Lab/LabWork/Lab_3/Lab_3.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/Malav/Documents/EE316Lab/LabWork/Basys3_Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/Malav/Documents/EE316Lab/LabWork/Basys3_Master.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/Malav/Documents/EE316Lab/LabWork/Basys3_Master.xdc
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  3 16:06:13 2019...
